@@ -6,35 +6,36 @@
 
 | Total Problems | Topics |
 |---|---|
-| 61 | 23 |
+| 76 | 24 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (2)
-- [Uncategorized](#uncategorized) (3)
-- [binary search](#binary-search) (6)
-- [bitmasks](#bitmasks) (3)
-- [brute force](#brute-force) (15)
+- [Uncategorized](#uncategorized) (4)
+- [binary search](#binary-search) (7)
+- [bitmasks](#bitmasks) (5)
+- [brute force](#brute-force) (16)
 - [combinatorics](#combinatorics) (3)
-- [constructive algorithms](#constructive-algorithms) (14)
-- [data structures](#data-structures) (1)
+- [constructive algorithms](#constructive-algorithms) (19)
+- [data structures](#data-structures) (3)
 - [dfs and similar](#dfs-and-similar) (4)
 - [divide and conquer](#divide-and-conquer) (2)
-- [dp](#dp) (8)
-- [games](#games) (3)
+- [dp](#dp) (10)
+- [fft](#fft) (1)
+- [games](#games) (4)
 - [geometry](#geometry) (2)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (28)
-- [implementation](#implementation) (20)
-- [math](#math) (28)
-- [number theory](#number-theory) (4)
+- [greedy](#greedy) (39)
+- [implementation](#implementation) (22)
+- [math](#math) (31)
+- [number theory](#number-theory) (7)
 - [probabilities](#probabilities) (1)
 - [schedules](#schedules) (1)
-- [sortings](#sortings) (6)
+- [sortings](#sortings) (10)
 - [strings](#strings) (4)
-- [two pointers](#two-pointers) (5)
+- [two pointers](#two-pointers) (6)
 
 ---
 
@@ -51,6 +52,7 @@
 |---|---------|------------|----------|
 | 2220D1 | [Unique Values (Easy version)](https://codeforces.com/contest/2220/problem/D1) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2220/D1%20-%20Unique%20Values%20(Easy%20version)/solution.txt) |
 | 2220D2 | [Unique Values (Hard version)](https://codeforces.com/contest/2220/problem/D2) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2220/D2%20-%20Unique%20Values%20(Hard%20version)/solution.txt) |
+| 2220E | [Coloring a Red Black Tree](https://codeforces.com/contest/2220/problem/E) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2220/E%20-%20Coloring%20a%20Red%20Black%20Tree/solution.txt) |
 | 1010211 | [Guess the Number](https://codeforces.com/contest/101021/problem/1) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/101021/1%20-%20Guess%20the%20Number/solution.txt) |
 
 ### binary search
@@ -63,6 +65,7 @@
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [Kotlin 2.2](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.txt) |
 | 2193D | [Monster Game](https://codeforces.com/contest/2193/problem/D) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2193/D%20-%20Monster%20Game/solution.txt) |
 | 2211C1 | [Equal Multisets (Easy Version)](https://codeforces.com/contest/2211/problem/C1) | 1300 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2211/C1%20-%20Equal%20Multisets%20(Easy%20Version)/solution.txt) |
+| 2218E | [The 67th XOR Problem](https://codeforces.com/contest/2218/problem/E) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2218/E%20-%20The%2067th%20XOR%20Problem/solution.txt) |
 
 ### bitmasks
 
@@ -71,6 +74,8 @@
 | 1494A | [ABC String](https://codeforces.com/contest/1494/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1494/A%20-%20ABC%20String/solution.txt) |
 | 2074C | [XOR and Triangle](https://codeforces.com/contest/2074/problem/C) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2074/C%20-%20XOR%20and%20Triangle/solution.txt) |
 | 2171C1 | [Renako Amaori and XOR Game (easy version)](https://codeforces.com/contest/2171/problem/C1) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2171/C1%20-%20Renako%20Amaori%20and%20XOR%20Game%20(easy%20version)/solution.txt) |
+| 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.txt) |
+| 2218E | [The 67th XOR Problem](https://codeforces.com/contest/2218/problem/E) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2218/E%20-%20The%2067th%20XOR%20Problem/solution.txt) |
 
 ### brute force
 
@@ -90,6 +95,7 @@
 | 2182B | [New Year Cake](https://codeforces.com/contest/2182/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2182/B%20-%20New%20Year%20Cake/solution.txt) |
 | 2208B | [Cyclists](https://codeforces.com/contest/2208/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2208/B%20-%20Cyclists/solution.txt) |
 | 2211C1 | [Equal Multisets (Easy Version)](https://codeforces.com/contest/2211/problem/C1) | 1300 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2211/C1%20-%20Equal%20Multisets%20(Easy%20Version)/solution.txt) |
+| 2218E | [The 67th XOR Problem](https://codeforces.com/contest/2218/problem/E) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2218/E%20-%20The%2067th%20XOR%20Problem/solution.txt) |
 | 2219A | [Grid L](https://codeforces.com/contest/2219/problem/A) | 1400 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2219/A%20-%20Grid%20L/solution.txt) |
 
 ### combinatorics
@@ -112,17 +118,24 @@
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.txt) |
 | 1761B | [Elimination of a Ring](https://codeforces.com/contest/1761/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1761/B%20-%20Elimination%20of%20a%20Ring/solution.txt) |
 | 1954A | [Painting the Ribbon](https://codeforces.com/contest/1954/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1954/A%20-%20Painting%20the%20Ribbon/solution.txt) |
+| 2063B | [Subsequence Update](https://codeforces.com/contest/2063/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2063/B%20-%20Subsequence%20Update/solution.txt) |
 | 2064B | [Variety is Discouraged](https://codeforces.com/contest/2064/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2064/B%20-%20Variety%20is%20Discouraged/solution.txt) |
 | 2072B | [Having Been a Treasurer in the Past, I Help Goblins Deceive](https://codeforces.com/contest/2072/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2072/B%20-%20Having%20Been%20a%20Treasurer%20in%20the%20Past%2C%20I%20Help%20Goblins%20Deceive/solution.txt) |
+| 2161C | [Loyalty](https://codeforces.com/contest/2161/problem/C) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2161/C%20-%20Loyalty/solution.txt) |
+| 2190A | [Sorting Game](https://codeforces.com/contest/2190/problem/A) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2190/A%20-%20Sorting%20Game/solution.txt) |
+| 2191B | [MEX Reordering](https://codeforces.com/contest/2191/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2191/B%20-%20MEX%20Reordering/solution.txt) |
 | 2192B | [Flipping Binary String](https://codeforces.com/contest/2192/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2192/B%20-%20Flipping%20Binary%20String/solution.txt) |
 | 2208A | [Bingo Candies](https://codeforces.com/contest/2208/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2208/A%20-%20Bingo%20Candies/solution.txt) |
 | 2211B | [Mickey Mouse Constructive](https://codeforces.com/contest/2211/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2211/B%20-%20Mickey%20Mouse%20Constructive/solution.txt) |
+| 2218D | [The 67th OEIS Problem](https://codeforces.com/contest/2218/problem/D) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2218/D%20-%20The%2067th%20OEIS%20Problem/solution.txt) |
 | 2219A | [Grid L](https://codeforces.com/contest/2219/problem/A) | 1400 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2219/A%20-%20Grid%20L/solution.txt) |
 
 ### data structures
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2063B | [Subsequence Update](https://codeforces.com/contest/2063/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2063/B%20-%20Subsequence%20Update/solution.txt) |
+| 2126D | [This Is the Last Time](https://codeforces.com/contest/2126/problem/D) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2126/D%20-%20This%20Is%20the%20Last%20Time/solution.txt) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.txt) |
 
 ### dfs and similar
@@ -150,15 +163,24 @@
 | 1941C | [Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1941/C%20-%20Rudolf%20and%20the%20Ugly%20String/solution.txt) |
 | 2173B | [Niko's Tactical Cards](https://codeforces.com/contest/2173/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2173/B%20-%20Niko's%20Tactical%20Cards/solution.txt) |
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [Kotlin 2.2](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.txt) |
+| 2195C | [Dice Roll Sequence](https://codeforces.com/contest/2195/problem/C) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2195/C%20-%20Dice%20Roll%20Sequence/solution.txt) |
 | 2202B | [ABAB Construction](https://codeforces.com/contest/2202/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2202/B%20-%20ABAB%20Construction/solution.txt) |
+| 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.txt) |
 | 2208C | [Stamina and Tasks](https://codeforces.com/contest/2208/problem/C) | 1300 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2208/C%20-%20Stamina%20and%20Tasks/solution.txt) |
 | 2211B | [Mickey Mouse Constructive](https://codeforces.com/contest/2211/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2211/B%20-%20Mickey%20Mouse%20Constructive/solution.txt) |
+
+### fft
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.txt) |
 
 ### games
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2171C1 | [Renako Amaori and XOR Game (easy version)](https://codeforces.com/contest/2171/problem/C1) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2171/C1%20-%20Renako%20Amaori%20and%20XOR%20Game%20(easy%20version)/solution.txt) |
+| 2190A | [Sorting Game](https://codeforces.com/contest/2190/problem/A) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2190/A%20-%20Sorting%20Game/solution.txt) |
 | 2196A | [Game with a Fraction](https://codeforces.com/contest/2196/problem/A) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2196/A%20-%20Game%20with%20a%20Fraction/solution.txt) |
 | 2208B | [Cyclists](https://codeforces.com/contest/2208/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2208/B%20-%20Cyclists/solution.txt) |
 
@@ -192,21 +214,32 @@
 | 1875A | [Jellyfish and Undertale](https://codeforces.com/contest/1875/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1875/A%20-%20Jellyfish%20and%20Undertale/solution.txt) |
 | 1941C | [Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1941/C%20-%20Rudolf%20and%20the%20Ugly%20String/solution.txt) |
 | 1954A | [Painting the Ribbon](https://codeforces.com/contest/1954/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1954/A%20-%20Painting%20the%20Ribbon/solution.txt) |
+| 2063B | [Subsequence Update](https://codeforces.com/contest/2063/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2063/B%20-%20Subsequence%20Update/solution.txt) |
 | 2064B | [Variety is Discouraged](https://codeforces.com/contest/2064/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2064/B%20-%20Variety%20is%20Discouraged/solution.txt) |
 | 2074C | [XOR and Triangle](https://codeforces.com/contest/2074/problem/C) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2074/C%20-%20XOR%20and%20Triangle/solution.txt) |
+| 2126D | [This Is the Last Time](https://codeforces.com/contest/2126/problem/D) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2126/D%20-%20This%20Is%20the%20Last%20Time/solution.txt) |
+| 2161C | [Loyalty](https://codeforces.com/contest/2161/problem/C) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2161/C%20-%20Loyalty/solution.txt) |
 | 2169B | [Drifting Away](https://codeforces.com/contest/2169/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2169/B%20-%20Drifting%20Away/solution.txt) |
 | 2171C1 | [Renako Amaori and XOR Game (easy version)](https://codeforces.com/contest/2171/problem/C1) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2171/C1%20-%20Renako%20Amaori%20and%20XOR%20Game%20(easy%20version)/solution.txt) |
 | 2173B | [Niko's Tactical Cards](https://codeforces.com/contest/2173/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2173/B%20-%20Niko's%20Tactical%20Cards/solution.txt) |
+| 2188B | [Seats](https://codeforces.com/contest/2188/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2188/B%20-%20Seats/solution.txt) |
+| 2190A | [Sorting Game](https://codeforces.com/contest/2190/problem/A) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2190/A%20-%20Sorting%20Game/solution.txt) |
 | 2194B | [Offshores](https://codeforces.com/contest/2194/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2194/B%20-%20Offshores/solution.txt) |
+| 2195C | [Dice Roll Sequence](https://codeforces.com/contest/2195/problem/C) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2195/C%20-%20Dice%20Roll%20Sequence/solution.txt) |
 | 2202B | [ABAB Construction](https://codeforces.com/contest/2202/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2202/B%20-%20ABAB%20Construction/solution.txt) |
+| 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.txt) |
 | 2208B | [Cyclists](https://codeforces.com/contest/2208/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2208/B%20-%20Cyclists/solution.txt) |
 | 2208C | [Stamina and Tasks](https://codeforces.com/contest/2208/problem/C) | 1300 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2208/C%20-%20Stamina%20and%20Tasks/solution.txt) |
 | 2209A | [Flip Flops](https://codeforces.com/contest/2209/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2209/A%20-%20Flip%20Flops/solution.txt) |
 | 2209B | [Array](https://codeforces.com/contest/2209/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2209/B%20-%20Array/solution.txt) |
+| 2210C1 | [A Simple GCD Problem (Easy Version)](https://codeforces.com/contest/2210/problem/C1) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2210/C1%20-%20A%20Simple%20GCD%20Problem%20(Easy%20Version)/solution.txt) |
 | 2211B | [Mickey Mouse Constructive](https://codeforces.com/contest/2211/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2211/B%20-%20Mickey%20Mouse%20Constructive/solution.txt) |
 | 2211C1 | [Equal Multisets (Easy Version)](https://codeforces.com/contest/2211/problem/C1) | 1300 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2211/C1%20-%20Equal%20Multisets%20(Easy%20Version)/solution.txt) |
+| 2217B | [Flip the Bit (Easy Version)](https://codeforces.com/contest/2217/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2217/B%20-%20Flip%20the%20Bit%20(Easy%20Version)/solution.txt) |
+| 2218D | [The 67th OEIS Problem](https://codeforces.com/contest/2218/problem/D) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2218/D%20-%20The%2067th%20OEIS%20Problem/solution.txt) |
 | 2220A | [Blocked](https://codeforces.com/contest/2220/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2220/A%20-%20Blocked/solution.txt) |
 | 2220B | [OIE Excursion](https://codeforces.com/contest/2220/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2220/B%20-%20OIE%20Excursion/solution.txt) |
+| 2228A | [Marisa Steals Reimu's Takeout](https://codeforces.com/contest/2228/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2228/A%20-%20Marisa%20Steals%20Reimu's%20Takeout/solution.txt) |
 
 ### implementation
 
@@ -232,6 +265,8 @@
 | 2202B | [ABAB Construction](https://codeforces.com/contest/2202/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2202/B%20-%20ABAB%20Construction/solution.txt) |
 | 2208B | [Cyclists](https://codeforces.com/contest/2208/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2208/B%20-%20Cyclists/solution.txt) |
 | 2211A | [Antimedian Deletion](https://codeforces.com/contest/2211/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2211/A%20-%20Antimedian%20Deletion/solution.txt) |
+| 2217B | [Flip the Bit (Easy Version)](https://codeforces.com/contest/2217/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2217/B%20-%20Flip%20the%20Bit%20(Easy%20Version)/solution.txt) |
+| 2228A | [Marisa Steals Reimu's Takeout](https://codeforces.com/contest/2228/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2228/A%20-%20Marisa%20Steals%20Reimu's%20Takeout/solution.txt) |
 
 ### math
 
@@ -259,11 +294,14 @@
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.txt) |
 | 2194B | [Offshores](https://codeforces.com/contest/2194/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2194/B%20-%20Offshores/solution.txt) |
 | 2196A | [Game with a Fraction](https://codeforces.com/contest/2196/problem/A) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2196/A%20-%20Game%20with%20a%20Fraction/solution.txt) |
+| 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.txt) |
+| 2204C | [Spring](https://codeforces.com/contest/2204/problem/C) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2204/C%20-%20Spring/solution.txt) |
 | 2208A | [Bingo Candies](https://codeforces.com/contest/2208/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2208/A%20-%20Bingo%20Candies/solution.txt) |
 | 2208B | [Cyclists](https://codeforces.com/contest/2208/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2208/B%20-%20Cyclists/solution.txt) |
 | 2208C | [Stamina and Tasks](https://codeforces.com/contest/2208/problem/C) | 1300 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2208/C%20-%20Stamina%20and%20Tasks/solution.txt) |
 | 2211A | [Antimedian Deletion](https://codeforces.com/contest/2211/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2211/A%20-%20Antimedian%20Deletion/solution.txt) |
 | 2211B | [Mickey Mouse Constructive](https://codeforces.com/contest/2211/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2211/B%20-%20Mickey%20Mouse%20Constructive/solution.txt) |
+| 2218D | [The 67th OEIS Problem](https://codeforces.com/contest/2218/problem/D) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2218/D%20-%20The%2067th%20OEIS%20Problem/solution.txt) |
 | 2219A | [Grid L](https://codeforces.com/contest/2219/problem/A) | 1400 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2219/A%20-%20Grid%20L/solution.txt) |
 
 ### number theory
@@ -273,6 +311,9 @@
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1679/A%20-%20AvtoBus/solution.txt) |
 | 2164B | [Even Modulo Pair](https://codeforces.com/contest/2164/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2164/B%20-%20Even%20Modulo%20Pair/solution.txt) |
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.txt) |
+| 2204C | [Spring](https://codeforces.com/contest/2204/problem/C) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2204/C%20-%20Spring/solution.txt) |
+| 2210C1 | [A Simple GCD Problem (Easy Version)](https://codeforces.com/contest/2210/problem/C1) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2210/C1%20-%20A%20Simple%20GCD%20Problem%20(Easy%20Version)/solution.txt) |
+| 2218D | [The 67th OEIS Problem](https://codeforces.com/contest/2218/problem/D) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2218/D%20-%20The%2067th%20OEIS%20Problem/solution.txt) |
 | 2219A | [Grid L](https://codeforces.com/contest/2219/problem/A) | 1400 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2219/A%20-%20Grid%20L/solution.txt) |
 
 ### probabilities
@@ -293,6 +334,10 @@
 |---|---------|------------|----------|
 | 492B | [Vanya and Lanterns](https://codeforces.com/contest/492/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/492/B%20-%20Vanya%20and%20Lanterns/solution.txt) |
 | 814A | [An abandoned sentiment from past](https://codeforces.com/contest/814/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/814/A%20-%20An%20abandoned%20sentiment%20from%20past/solution.txt) |
+| 2063B | [Subsequence Update](https://codeforces.com/contest/2063/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2063/B%20-%20Subsequence%20Update/solution.txt) |
+| 2126D | [This Is the Last Time](https://codeforces.com/contest/2126/problem/D) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2126/D%20-%20This%20Is%20the%20Last%20Time/solution.txt) |
+| 2161C | [Loyalty](https://codeforces.com/contest/2161/problem/C) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2161/C%20-%20Loyalty/solution.txt) |
+| 2191B | [MEX Reordering](https://codeforces.com/contest/2191/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2191/B%20-%20MEX%20Reordering/solution.txt) |
 | 2193D | [Monster Game](https://codeforces.com/contest/2193/problem/D) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2193/D%20-%20Monster%20Game/solution.txt) |
 | 2197B | [Array and Permutation](https://codeforces.com/contest/2197/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2197/B%20-%20Array%20and%20Permutation/solution.txt) |
 | 2208B | [Cyclists](https://codeforces.com/contest/2208/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2208/B%20-%20Cyclists/solution.txt) |
@@ -312,6 +357,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2064B | [Variety is Discouraged](https://codeforces.com/contest/2064/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2064/B%20-%20Variety%20is%20Discouraged/solution.txt) |
+| 2161C | [Loyalty](https://codeforces.com/contest/2161/problem/C) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2161/C%20-%20Loyalty/solution.txt) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.txt) |
 | 2193D | [Monster Game](https://codeforces.com/contest/2193/problem/D) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2193/D%20-%20Monster%20Game/solution.txt) |
 | 2197B | [Array and Permutation](https://codeforces.com/contest/2197/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2197/B%20-%20Array%20and%20Permutation/solution.txt) |
