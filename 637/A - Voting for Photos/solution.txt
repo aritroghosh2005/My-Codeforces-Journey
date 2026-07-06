@@ -1,0 +1,24 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+print = lambda *args: sys.stdout.write(' '.join(map(str, args)) + '
+')
+ 
+def solve():
+    n = int(input())
+    a = list(map(int, input().split()))
+    counts = {}
+    maxCount = maxId = 0
+ 
+    for id in a:
+        if id not in counts: counts[id] = 1
+        else: counts[id] += 1
+ 
+        if counts[id] > maxCount:
+            maxCount = counts[id]
+            maxId = id
+    print(maxId)
+    
+    
+ 
+ 
+solve()
