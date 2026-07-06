@@ -1,0 +1,16 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+print = lambda *args: sys.stdout.write(' '.join(map(str, args)) + '
+')
+ 
+def solve():
+    n, m, k = map(int, input().split())
+ 
+    filled = -(-n//m)
+    unfilled = n - filled
+    if k>=unfilled: print("NO")
+    else: print("YES")
+ 
+t = int(input())
+for _ in range(t):
+    solve()
