@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 139 | 26 |
+| 140 | 26 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (2)
-- [Uncategorized](#uncategorized) (7)
+- [Uncategorized](#uncategorized) (8)
 - [binary search](#binary-search) (18)
 - [bitmasks](#bitmasks) (6)
 - [brute force](#brute-force) (29)
@@ -58,6 +58,7 @@
 | 2240C | [Nim Game Is XOR Game](https://codeforces.com/contest/2240/problem/C) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2240/C%20-%20Nim%20Game%20Is%20XOR%20Game/solution.txt) |
 | 2242A | [Bigrams](https://codeforces.com/contest/2242/problem/A) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2242/A%20-%20Bigrams/solution.txt) |
 | 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.txt) |
+| 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.txt) |
 | 1010211 | [Guess the Number](https://codeforces.com/contest/101021/problem/1) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/101021/1%20-%20Guess%20the%20Number/solution.txt) |
 
 ### binary search
