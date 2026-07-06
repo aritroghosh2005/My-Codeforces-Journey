@@ -1,0 +1,15 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+print = lambda *args: sys.stdout.write(' '.join(map(str, args)) + '
+')
+ 
+from fractions import Fraction
+ 
+def solve():
+    a, b, x, y = map(int, input().split())
+    
+    f = Fraction(x, y)
+    x, y = f.numerator, f.denominator
+    print(min(a//x, b//y))
+ 
+solve()
