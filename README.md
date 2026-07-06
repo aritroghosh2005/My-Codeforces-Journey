@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 141 | 26 |
+| 142 | 26 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [bitmasks](#bitmasks) (6)
 - [brute force](#brute-force) (29)
 - [combinatorics](#combinatorics) (6)
-- [constructive algorithms](#constructive-algorithms) (38)
+- [constructive algorithms](#constructive-algorithms) (39)
 - [data structures](#data-structures) (6)
 - [dfs and similar](#dfs-and-similar) (6)
 - [divide and conquer](#divide-and-conquer) (2)
@@ -152,6 +152,7 @@
 | 779A | [Pupils Redistribution](https://codeforces.com/contest/779/problem/A) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/779/A%20-%20Pupils%20Redistribution/solution.txt) |
 | 814A | [An abandoned sentiment from past](https://codeforces.com/contest/814/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/814/A%20-%20An%20abandoned%20sentiment%20from%20past/solution.txt) |
 | 1227B | [Box](https://codeforces.com/contest/1227/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1227/B%20-%20Box/solution.txt) |
+| 1335B | [Construct the String](https://codeforces.com/contest/1335/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1335/B%20-%20Construct%20the%20String/solution.txt) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.txt) |
 | 1651B | [Prove Him Wrong](https://codeforces.com/contest/1651/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1651/B%20-%20Prove%20Him%20Wrong/solution.txt) |
 | 1684B | [Z mod X = C](https://codeforces.com/contest/1684/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1684/B%20-%20Z%20mod%20X%20%3D%20C/solution.txt) |
