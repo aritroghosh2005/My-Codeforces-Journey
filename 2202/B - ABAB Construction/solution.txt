@@ -1,0 +1,25 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+ 
+def solve():
+    n = int(input())
+    X = input()
+    flag = True
+    start = 0
+ 
+    if n & 1: 
+        if X[0] == 'b': flag = False
+        start += 1
+    
+    if flag:
+        for i in range(start, n, 2):
+            first, second = X[i], X[i+1]
+            if (first=='a' and second=='a') or (first=='b' and second=='b'):
+                flag = False
+                break
+    
+    print("YES") if flag else print("NO")
+ 
+t = int(input())
+for _ in range(t):
+    solve()
