@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 140 | 26 |
+| 141 | 26 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [bitmasks](#bitmasks) (6)
 - [brute force](#brute-force) (29)
 - [combinatorics](#combinatorics) (6)
-- [constructive algorithms](#constructive-algorithms) (37)
+- [constructive algorithms](#constructive-algorithms) (38)
 - [data structures](#data-structures) (6)
 - [dfs and similar](#dfs-and-similar) (6)
 - [divide and conquer](#divide-and-conquer) (2)
@@ -28,7 +28,7 @@
 - [games](#games) (7)
 - [geometry](#geometry) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (74)
+- [greedy](#greedy) (75)
 - [implementation](#implementation) (33)
 - [math](#math) (60)
 - [number theory](#number-theory) (8)
@@ -153,6 +153,7 @@
 | 814A | [An abandoned sentiment from past](https://codeforces.com/contest/814/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/814/A%20-%20An%20abandoned%20sentiment%20from%20past/solution.txt) |
 | 1227B | [Box](https://codeforces.com/contest/1227/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1227/B%20-%20Box/solution.txt) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.txt) |
+| 1651B | [Prove Him Wrong](https://codeforces.com/contest/1651/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1651/B%20-%20Prove%20Him%20Wrong/solution.txt) |
 | 1684B | [Z mod X = C](https://codeforces.com/contest/1684/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1684/B%20-%20Z%20mod%20X%20%3D%20C/solution.txt) |
 | 1702A | [Round Down the Price](https://codeforces.com/contest/1702/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1702/A%20-%20Round%20Down%20the%20Price/solution.txt) |
 | 1728B | [Best Permutation](https://codeforces.com/contest/1728/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1728/B%20-%20Best%20Permutation/solution.txt) |
@@ -288,6 +289,7 @@
 | 1539A | [Contest Start](https://codeforces.com/contest/1539/problem/A) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1539/A%20-%20Contest%20Start/solution.txt) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.txt) |
 | 1605B | [Reverse Sort](https://codeforces.com/contest/1605/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1605/B%20-%20Reverse%20Sort/solution.txt) |
+| 1651B | [Prove Him Wrong](https://codeforces.com/contest/1651/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1651/B%20-%20Prove%20Him%20Wrong/solution.txt) |
 | 1667A | [Make it Increasing](https://codeforces.com/contest/1667/problem/A) | 1300 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1667/A%20-%20Make%20it%20Increasing/solution.txt) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1679/A%20-%20AvtoBus/solution.txt) |
 | 1728B | [Best Permutation](https://codeforces.com/contest/1728/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1728/B%20-%20Best%20Permutation/solution.txt) |
