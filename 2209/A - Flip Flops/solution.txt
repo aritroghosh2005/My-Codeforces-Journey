@@ -1,0 +1,23 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+print = lambda *args: sys.stdout.write(' '.join(map(str, args)) + '
+')
+ 
+def solve():
+    n, c, k = map(int, input().split())
+    a = list(map(int, input().split()))
+    a.sort()
+ 
+    for power in a:
+        if power > c: break
+        else:
+            use = k if k < c-power else (c-power)
+            power += use
+            c += power
+            k -= use
+    print(c)
+ 
+ 
+t = int(input())
+for _ in range(t):
+    solve()
