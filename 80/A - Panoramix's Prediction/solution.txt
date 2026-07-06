@@ -1,0 +1,17 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+import gc
+gc.disable()
+ 
+def solve():
+    n, m = map(int, input().split())
+    primes = [2,3,5,7,11,13,17,19,23,29,31,37,41,43,47]
+ 
+    if m not in primes: print("NO"); return
+ 
+    i, j = primes.index(n), primes.index(m)
+    print("YES" if j==i+1 else "NO")
+ 
+t = 1
+for _ in range(t): solve()
