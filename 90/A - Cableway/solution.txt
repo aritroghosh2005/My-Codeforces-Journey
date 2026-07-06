@@ -1,0 +1,16 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+print = lambda *args: sys.stdout.write(' '.join(map(str, args)) + '
+')
+ 
+def solve():
+    r,g,b = map(int, input().split())
+ 
+    seriesR, seriesG, seriesB= -(-r // 2), -(-g//2), -(-b//2)
+    carsR = 29 + seriesR*3 - 2
+    carsG = 29 + seriesG*3 - 1
+    carsB = 29 + seriesB*3
+ 
+    print(max(carsR, carsB, carsG))
+    
+solve()
