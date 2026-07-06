@@ -1,0 +1,39 @@
+import java.util.*
+ 
+fun main() {
+    val scanner = Scanner(System.`in`)
+    val t = scanner.nextInt()
+ 
+    repeat(t) {
+        solve(scanner)
+    }
+}
+ 
+fun solve(scanner: Scanner) {
+    val k = scanner.nextInt()
+ 
+    val a1 = scanner.nextInt()
+    val b1 = scanner.nextInt()
+ 
+    val a2 = scanner.nextInt()
+    val b2 = scanner.nextInt()
+ 
+    var round = 0
+ 
+    val pairs = listOf(Pair(a1, b1), Pair(a2, b2))
+ 
+    for ((scoreA, scoreB) in pairs) {
+        if (scoreA > scoreB) round += 1
+        else if (scoreB > scoreA) round -= 1
+    }
+ 
+    val amin = a1 + a2
+    val bmax = b1 + b2 + k
+    round -= 1
+ 
+    if ((amin > bmax) || (amin == bmax && round > 0)) {
+        println("NO")
+    } else {
+        println("YES")
+    }
+}
