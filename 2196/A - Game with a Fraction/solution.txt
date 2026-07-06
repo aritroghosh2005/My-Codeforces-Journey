@@ -1,0 +1,12 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+print = lambda *args: sys.stdout.write(' '.join(map(str, args)) + '
+')
+ 
+def solve():
+    p, q = map(int, input().split())
+    print("Bob") if q>p and 3*p >= 2*q else print("Alice")
+ 
+t = int(input())
+for _ in range(t):
+    solve()
