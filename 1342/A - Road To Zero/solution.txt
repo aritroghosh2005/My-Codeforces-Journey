@@ -1,0 +1,17 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    x, y = map(int, input().split())
+    a, b = map(int, input().split())
+    
+    if b >= 2*a:
+        cost = (x + y)*a
+    else:
+        costB = min(x,y)*b
+        costA = abs(x-y)*a
+        cost = costA + costB
+    print(cost)
+ 
+t = int(input())
+for _ in range(t): solve()
