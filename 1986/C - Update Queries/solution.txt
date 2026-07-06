@@ -1,0 +1,22 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+import gc
+gc.disable()
+ 
+def solve():
+    n, m = map(int, input().split())
+    s = list(input())
+    ind = list(map(int, input().split()))
+    c = input()
+ 
+    ind = sorted(list(set(ind)))
+    c = sorted(c)
+ 
+    for i in range(len(ind)):
+        targetIndex = ind[i] - 1
+        s[targetIndex] = c[i]
+    print(''.join(s)) 
+ 
+t = int(input())
+for _ in range(t): solve()
