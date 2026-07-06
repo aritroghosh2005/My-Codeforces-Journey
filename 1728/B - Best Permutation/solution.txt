@@ -1,0 +1,18 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+import gc
+gc.disable()
+ 
+def solve():
+    n = int(input())
+ 
+    right = [n-1, n]
+    
+    if n%2 == 0: left = list(range(n-2, 0, -1))
+    else: left = [1] + list(range(n-2, 1, -1)) 
+    perm = left + right
+    print(*perm)
+ 
+t = int(input())
+for _ in range(t): solve()
