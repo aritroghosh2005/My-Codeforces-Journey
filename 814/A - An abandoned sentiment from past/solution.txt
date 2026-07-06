@@ -1,0 +1,21 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+print = lambda *args: sys.stdout.write(' '.join(map(str, args)) + '
+')
+ 
+def solve():
+    n, k = map(int, input().split())
+    a = list(map(int, input().split()))
+    b = list(map(int, input().split()))
+    b.sort(reverse=True)
+    j = 0
+ 
+    for i in range(n):
+        if a[i]==0:
+            a[i] = b[j]
+            j += 1
+    
+    if n < 2 or all(a[i] < a[i+1] for i in range(n-1)): print("No")
+    else: print("Yes")
+        
+solve()
