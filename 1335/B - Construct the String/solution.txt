@@ -1,0 +1,15 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    n, a, b = map(int, input().split())
+    
+    alphabets = "abcdefghijklmnopqrstuvwxyz"
+    component = alphabets[:b]
+ 
+    r = n%b
+    s = component*(n//b) + component[:r]
+    print(s)
+ 
+t = int(input())
+for _ in range(t): solve()
