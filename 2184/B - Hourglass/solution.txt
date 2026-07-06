@@ -1,0 +1,18 @@
+fun main(){
+    val t = readln().toInt()
+    for (i in 0..<t)
+        solve()
+}
+// This is a comment
+ 
+fun solve(){
+    val (s,k,m) = readln().split(" ").map{it.toInt()}
+ 
+    val flips = m/k
+    val timeLeft = m%k
+ 
+    if (s<=k || flips%2 == 0)
+        println(maxOf(s-timeLeft,0))
+    else
+        println(k-timeLeft)
+}
