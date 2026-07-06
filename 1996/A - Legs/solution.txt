@@ -1,0 +1,11 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    n = int(input())
+    
+    animals = -(-n//4)
+    print(animals)
+ 
+t = int(input())
+for _ in range(t): solve()
