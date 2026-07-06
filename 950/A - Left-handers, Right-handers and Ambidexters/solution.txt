@@ -1,0 +1,19 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    l,r,a = map(int, input().split())
+    
+    if l==r:
+        half = l + a//2
+    else:
+        diff = abs(l-r)
+        if l > r: left, right = l, r + min(diff, a)
+        else: left, right = l + min(diff, a), r
+        a -= diff
+        half = min(left, right) 
+        if a>0: half += a//2
+    print(half*2)
+ 
+t = 1
+for _ in range(t): solve()
