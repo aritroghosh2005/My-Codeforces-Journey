@@ -1,0 +1,21 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+print = lambda *args: sys.stdout.write(' '.join(map(str, args)) + '
+')
+ 
+def solve():
+    n, x, y = map(int, input().split())
+    a = list(map(int, input().split()))
+ 
+    deposits = sum(money//x for money in a)
+    Maxamt = 0
+ 
+    for money in a:
+        deposit = deposits - money//x
+        amt = money + deposit*y
+        Maxamt = max(amt, Maxamt)
+    print(Maxamt)
+ 
+t = int(input())
+for _ in range(t):
+    solve()
