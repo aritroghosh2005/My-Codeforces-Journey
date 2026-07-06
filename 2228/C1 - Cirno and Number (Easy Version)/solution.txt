@@ -1,0 +1,60 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+print = lambda *args: sys.stdout.write(' '.join(map(str, args)) + '
+')
+ 
+def solve():
+    a, n = input().split()
+    target = int(a)
+    length = len(a)
+    
+    digits = sorted(list(map(int, input().split())))
+    d, D = digits[0], digits[1]    
+    candidates = []
+    
+    if length > 1:
+        number = int(str(D) * (length - 1))
+        candidates.append(number)
+        
+    if d == 0: number = int(str(D) + str(d) * length)
+    else: number = int(str(d) * (length + 1))
+    candidates.append(number)
+    
+    prefix = ""
+    for i in range(length):
+        targetDigit = int(a[i])
+        spots = length - 1 - i
+        
+        if D < targetDigit:
+            number = prefix + str(D) + str(D) * spots
+            candidates.append(int(number))
+        elif d < targetDigit:
+            number = prefix + str(d) + str(D) * spots
+            candidates.append(int(number))
+            
+        if d > targetDigit:
+            number= prefix + str(d) + str(d) * spots
+            candidates.append(int(number))
+        elif D > targetDigit:
+            number= prefix + str(D) + str(d) * spots
+            candidates.append(int(number))
+            
+        if targetDigit == d:
+            prefix = prefix + str(d)
+        elif targetDigit == D:
+            prefix = prefix + str(D)
+        else:
+            break          
+    else:
+        candidates.append(int(prefix))
+        
+    minDiff = float('inf')
+    for candidate in candidates:
+        diff = abs(target - candidate)
+        minDiff = min(minDiff, diff)
+            
+    print(minDiff)
+ 
+t = int(input())
+for _ in range(t): 
+    solve()
