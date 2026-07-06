@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 15 | 16 |
+| 16 | 16 |
 
 ---
 
@@ -22,8 +22,8 @@
 - [dp](#dp) (2)
 - [games](#games) (1)
 - [greedy](#greedy) (6)
-- [implementation](#implementation) (5)
-- [math](#math) (4)
+- [implementation](#implementation) (6)
+- [math](#math) (5)
 - [number theory](#number-theory) (2)
 - [sortings](#sortings) (1)
 - [strings](#strings) (1)
@@ -107,6 +107,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 950A | [Left-handers, Right-handers and Ambidexters](https://codeforces.com/contest/950/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/950/A%20-%20Left-handers%2C%20Right-handers%20and%20Ambidexters/solution.txt) |
 | 1490D | [Permutation Transformation](https://codeforces.com/contest/1490/problem/D) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1490/D%20-%20Permutation%20Transformation/solution.txt) |
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.txt) |
 | 2169B | [Drifting Away](https://codeforces.com/contest/2169/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2169/B%20-%20Drifting%20Away/solution.txt) |
@@ -118,6 +119,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 630C | [Lucky Numbers](https://codeforces.com/contest/630/problem/C) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/630/C%20-%20Lucky%20Numbers/solution.txt) |
+| 950A | [Left-handers, Right-handers and Ambidexters](https://codeforces.com/contest/950/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/950/A%20-%20Left-handers%2C%20Right-handers%20and%20Ambidexters/solution.txt) |
 | 2164B | [Even Modulo Pair](https://codeforces.com/contest/2164/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2164/B%20-%20Even%20Modulo%20Pair/solution.txt) |
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.txt) |
 | 2173B | [Niko's Tactical Cards](https://codeforces.com/contest/2173/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2173/B%20-%20Niko's%20Tactical%20Cards/solution.txt) |
