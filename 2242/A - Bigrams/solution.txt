@@ -1,0 +1,13 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    k = int(input())
+    c = list(map(int, input().split()))
+    
+    if any(freq>=3 for freq in c): print("YES")
+    elif k >= 2 and sum(1 for freq in c if freq>=2) >= 2: print("YES")
+    else: print("NO")
+ 
+t = int(input())
+for _ in range(t): solve()
