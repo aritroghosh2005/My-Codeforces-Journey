@@ -1,0 +1,24 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+print = lambda *args: sys.stdout.write(' '.join(map(str, args)) + '
+')
+ 
+def solve():
+    n = int(input())
+    p = list(map(int, input().split()))
+    a = list(map(int, input().split()))
+ 
+    address = {}
+    for i in range(n): address[p[i]] = i
+ 
+    home1 = home2 = -1
+    for number in a:
+        home2 = address[number]
+        if home2 < home1: break
+        home1 = home2
+    else: print("YES"); return
+    print("NO")
+ 
+t = int(input())
+for _ in range(t):
+    solve()
