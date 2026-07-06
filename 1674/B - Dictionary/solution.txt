@@ -1,0 +1,21 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    s = input()
+    
+    ch = s[0]
+    first = ord(ch) - 96
+ 
+    value = 25*(first-1)
+ 
+    ch = s[1]
+    second = ord(ch) - 96
+    
+    if second > first: value += (second-1)
+    else: value += second
+ 
+    print(value)
+ 
+t = int(input())
+for _ in range(t): solve()
