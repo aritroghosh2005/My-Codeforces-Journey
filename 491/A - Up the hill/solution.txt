@@ -1,0 +1,15 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+print = lambda *args: sys.stdout.write(' '.join(map(str, args)) + '
+')
+ 
+def solve():
+    A = int(input())
+    B = int(input())
+ 
+    N = A + B + 1
+    stops = list(range(1, N+1))
+    stops = sorted(stops[-A-1:]) + sorted(stops[:B], reverse = True)
+    print(*stops)
+ 
+solve()
