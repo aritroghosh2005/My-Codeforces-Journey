@@ -1,0 +1,27 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+import gc
+gc.disable()
+ 
+def solve():
+    n = int(input())
+    s = input()
+ 
+    if "10" not in s: print(0); return
+ 
+    z = s.count('0')
+    indices = []
+ 
+    for i in range(z):
+        if s[i] == '1': indices.append(i+1)
+    for i in range(z, n):
+        if s[i] == '0': indices.append(i+1)
+    
+    print(1)
+    ans = [len(indices)] + indices
+    sys.stdout.write(' '.join(map(str, ans)) + '
+')
+ 
+t = int(input())
+for _ in range(t): solve()
