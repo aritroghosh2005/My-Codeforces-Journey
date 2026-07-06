@@ -1,0 +1,14 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    n = int(input())
+    
+    if 3**(n-1) > 10**9: print("NO"); return
+    
+    numbers = [3**i for i in range(n)]
+    print("YES")
+    print(*numbers)
+ 
+t = int(input())
+for _ in range(t): solve()
