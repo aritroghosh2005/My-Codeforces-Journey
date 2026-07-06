@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 134 | 25 |
+| 137 | 26 |
 
 ---
 
@@ -14,12 +14,12 @@
 
 - [*special](#special) (2)
 - [Uncategorized](#uncategorized) (5)
-- [binary search](#binary-search) (17)
+- [binary search](#binary-search) (18)
 - [bitmasks](#bitmasks) (6)
 - [brute force](#brute-force) (29)
 - [combinatorics](#combinatorics) (6)
 - [constructive algorithms](#constructive-algorithms) (37)
-- [data structures](#data-structures) (5)
+- [data structures](#data-structures) (6)
 - [dfs and similar](#dfs-and-similar) (6)
 - [divide and conquer](#divide-and-conquer) (2)
 - [dp](#dp) (18)
@@ -28,14 +28,15 @@
 - [games](#games) (7)
 - [geometry](#geometry) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (72)
+- [greedy](#greedy) (74)
 - [implementation](#implementation) (33)
-- [math](#math) (59)
+- [math](#math) (60)
 - [number theory](#number-theory) (8)
 - [probabilities](#probabilities) (1)
 - [schedules](#schedules) (2)
-- [sortings](#sortings) (15)
+- [sortings](#sortings) (17)
 - [strings](#strings) (6)
+- [ternary search](#ternary-search) (1)
 - [two pointers](#two-pointers) (10)
 
 ---
@@ -65,6 +66,7 @@
 | 743B | [Chloe and the sequence ](https://codeforces.com/contest/743/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/743/B%20-%20Chloe%20and%20the%20sequence%20/solution.txt) |
 | 755B | [PolandBall and Game](https://codeforces.com/contest/755/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/755/B%20-%20PolandBall%20and%20Game/solution.txt) |
 | 1886B | [Fear of the Dark](https://codeforces.com/contest/1886/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1886/B%20-%20Fear%20of%20the%20Dark/solution.txt) |
+| 1996A | [Legs](https://codeforces.com/contest/1996/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1996/A%20-%20Legs/solution.txt) |
 | 2020B | [Brightness Begins](https://codeforces.com/contest/2020/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2020/B%20-%20Brightness%20Begins/solution.txt) |
 | 2041B | [Bowling Frame](https://codeforces.com/contest/2041/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2041/B%20-%20Bowling%20Frame/solution.txt) |
 | 2064B | [Variety is Discouraged](https://codeforces.com/contest/2064/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2064/B%20-%20Variety%20is%20Discouraged/solution.txt) |
@@ -182,6 +184,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 755B | [PolandBall and Game](https://codeforces.com/contest/755/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/755/B%20-%20PolandBall%20and%20Game/solution.txt) |
+| 1986C | [Update Queries](https://codeforces.com/contest/1986/problem/C) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1986/C%20-%20Update%20Queries/solution.txt) |
 | 2063B | [Subsequence Update](https://codeforces.com/contest/2063/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2063/B%20-%20Subsequence%20Update/solution.txt) |
 | 2126D | [This Is the Last Time](https://codeforces.com/contest/2126/problem/D) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2126/D%20-%20This%20Is%20the%20Last%20Time/solution.txt) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.txt) |
@@ -281,6 +284,7 @@
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.txt) |
 | 1539A | [Contest Start](https://codeforces.com/contest/1539/problem/A) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1539/A%20-%20Contest%20Start/solution.txt) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.txt) |
+| 1605B | [Reverse Sort](https://codeforces.com/contest/1605/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1605/B%20-%20Reverse%20Sort/solution.txt) |
 | 1667A | [Make it Increasing](https://codeforces.com/contest/1667/problem/A) | 1300 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1667/A%20-%20Make%20it%20Increasing/solution.txt) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1679/A%20-%20AvtoBus/solution.txt) |
 | 1728B | [Best Permutation](https://codeforces.com/contest/1728/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1728/B%20-%20Best%20Permutation/solution.txt) |
@@ -294,6 +298,7 @@
 | 1941C | [Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1941/C%20-%20Rudolf%20and%20the%20Ugly%20String/solution.txt) |
 | 1951A | [Dual Trigger](https://codeforces.com/contest/1951/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1951/A%20-%20Dual%20Trigger/solution.txt) |
 | 1954A | [Painting the Ribbon](https://codeforces.com/contest/1954/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1954/A%20-%20Painting%20the%20Ribbon/solution.txt) |
+| 1986C | [Update Queries](https://codeforces.com/contest/1986/problem/C) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1986/C%20-%20Update%20Queries/solution.txt) |
 | 2048B | [Kevin and Permutation](https://codeforces.com/contest/2048/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2048/B%20-%20Kevin%20and%20Permutation/solution.txt) |
 | 2063B | [Subsequence Update](https://codeforces.com/contest/2063/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2063/B%20-%20Subsequence%20Update/solution.txt) |
 | 2064B | [Variety is Discouraged](https://codeforces.com/contest/2064/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2064/B%20-%20Variety%20is%20Discouraged/solution.txt) |
@@ -412,6 +417,7 @@
 | 1934B | [Yet Another Coin Problem](https://codeforces.com/contest/1934/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1934/B%20-%20Yet%20Another%20Coin%20Problem/solution.txt) |
 | 1951A | [Dual Trigger](https://codeforces.com/contest/1951/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1951/A%20-%20Dual%20Trigger/solution.txt) |
 | 1954A | [Painting the Ribbon](https://codeforces.com/contest/1954/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1954/A%20-%20Painting%20the%20Ribbon/solution.txt) |
+| 1996A | [Legs](https://codeforces.com/contest/1996/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1996/A%20-%20Legs/solution.txt) |
 | 2020B | [Brightness Begins](https://codeforces.com/contest/2020/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2020/B%20-%20Brightness%20Begins/solution.txt) |
 | 2041B | [Bowling Frame](https://codeforces.com/contest/2041/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2041/B%20-%20Bowling%20Frame/solution.txt) |
 | 2164B | [Even Modulo Pair](https://codeforces.com/contest/2164/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2164/B%20-%20Even%20Modulo%20Pair/solution.txt) |
@@ -479,6 +485,8 @@
 | 572A | [Arrays](https://codeforces.com/contest/572/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/572/A%20-%20Arrays/solution.txt) |
 | 755B | [PolandBall and Game](https://codeforces.com/contest/755/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/755/B%20-%20PolandBall%20and%20Game/solution.txt) |
 | 814A | [An abandoned sentiment from past](https://codeforces.com/contest/814/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/814/A%20-%20An%20abandoned%20sentiment%20from%20past/solution.txt) |
+| 1605B | [Reverse Sort](https://codeforces.com/contest/1605/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1605/B%20-%20Reverse%20Sort/solution.txt) |
+| 1986C | [Update Queries](https://codeforces.com/contest/1986/problem/C) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1986/C%20-%20Update%20Queries/solution.txt) |
 | 2063B | [Subsequence Update](https://codeforces.com/contest/2063/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2063/B%20-%20Subsequence%20Update/solution.txt) |
 | 2126D | [This Is the Last Time](https://codeforces.com/contest/2126/problem/D) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2126/D%20-%20This%20Is%20the%20Last%20Time/solution.txt) |
 | 2161C | [Loyalty](https://codeforces.com/contest/2161/problem/C) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2161/C%20-%20Loyalty/solution.txt) |
@@ -501,6 +509,12 @@
 | 1941C | [Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1941/C%20-%20Rudolf%20and%20the%20Ugly%20String/solution.txt) |
 | 2072B | [Having Been a Treasurer in the Past, I Help Goblins Deceive](https://codeforces.com/contest/2072/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2072/B%20-%20Having%20Been%20a%20Treasurer%20in%20the%20Past%2C%20I%20Help%20Goblins%20Deceive/solution.txt) |
 | 2192B | [Flipping Binary String](https://codeforces.com/contest/2192/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2192/B%20-%20Flipping%20Binary%20String/solution.txt) |
+
+### ternary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1996A | [Legs](https://codeforces.com/contest/1996/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1996/A%20-%20Legs/solution.txt) |
 
 ### two pointers
 
