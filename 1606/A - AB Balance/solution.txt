@@ -1,0 +1,16 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+print = lambda *args: sys.stdout.write(' '.join(map(str, args)) + '
+')
+ 
+def solve():
+    s = input()
+ 
+    ch = s[-1]
+    s = ch + s[1:]
+    
+    print(s)
+            
+t = int(input())
+for _ in range(t):
+    solve()
