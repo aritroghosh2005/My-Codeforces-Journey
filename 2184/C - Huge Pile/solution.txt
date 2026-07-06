@@ -1,0 +1,48 @@
+import java.util.*
+ 
+fun main() {
+    val scanner = Scanner(System.`in`)
+    val t = scanner.nextInt()
+ 
+    val times = mutableListOf<Int>()
+ 
+    // Memoization map: Triple(n, k, time) -> result
+    val cache = HashMap<Triple<Int, Int, Int>, Int>()
+ 
+    fun findTime(n: Int, k: Int, time: Int = 0): Int {
+        val key = Triple(n, k, time)
+ 
+        // Check cache
+        if (cache.containsKey(key)) {
+            return cache[key]!!
+        }
+ 
+        // Base cases
+        if (n == k) return time
+        if (n < 2 * k - 1) return -1
+ 
+        // Recursive calls
+        val option1 = findTime(n / 2, k, time + 1)
+        val option2 = findTime((n + 1) / 2, k, time + 1)
+ 
+        val result = when {
+            option1 == -1 -> option2
+            option2 == -1 -> option1
+            else -> minOf(option1, option2)
+        }
+ 
+        // Store in cache
+        cache[key] = result
+        return result
+    }
+ 
+    repeat(t) {
+        val n = scanner.nextInt()
+        val k = scanner.nextInt()
+        times.add(findTime(n, k))
+    }
+ 
+    for (time in times) {
+        println(time)
+    }
+}
