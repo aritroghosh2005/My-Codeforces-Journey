@@ -1,0 +1,31 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    n = int(input())
+    a = list(map(int, input().split()))
+ 
+    leftScore = [0]*n
+    score = 0
+    for i in range(n):
+        score = (score+1) if a[i] == 1 else (score - 1)
+        leftScore[i] = score
+    
+    midScore = [0]*n
+    score = 0
+    for i in range(n):
+        score = (score+1) if a[i] in (1,2) else (score - 1)
+        midScore[i] = score
+    
+    highestMidScore = [-float('inf')]*(n-1)
+    highestMidScore[n-2] = midScore[n-2]
+    for i in range(n-3, -1, -1):
+        highestMidScore[i] = max(highestMidScore[i+1], midScore[i])
+ 
+    for i in range(n-2):
+        if leftScore[i] >= 0 and highestMidScore[i+1] >= midScore[i]:
+            print("YES"); return
+    print("NO")
+ 
+t = int(input())
+for _ in range(t): solve()
