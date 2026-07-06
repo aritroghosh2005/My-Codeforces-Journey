@@ -1,0 +1,17 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+print = lambda *args: sys.stdout.write(' '.join(map(str, args)) + '
+')
+ 
+def solve():
+    n, l = map(int, input().split())
+    a = list(map(int, input().split()))
+    a.sort()
+ 
+    first, last = a[0], l-a[-1]
+    if n==1: maxdist = 0
+    else: maxdist = max(a[i+1]-a[i] for i in range(n-1))
+ 
+    print(max(first, last, maxdist/2))
+    
+solve()
