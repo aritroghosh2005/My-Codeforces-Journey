@@ -1,0 +1,18 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+from collections import Counter
+ 
+def solve():
+    given = input()
+    target = input()
+ 
+    area = 0
+    freqGiven, freqTarget = Counter(given), Counter(target)
+    for colour in freqTarget:
+        if colour not in freqGiven: print(-1); return
+        area += min(freqTarget[colour], freqGiven[colour])
+    print(area)
+ 
+t = 1
+for _ in range(t): solve()
