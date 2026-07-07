@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 144 | 26 |
+| 145 | 26 |
 
 ---
 
@@ -29,7 +29,7 @@
 - [geometry](#geometry) (3)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (77)
-- [implementation](#implementation) (33)
+- [implementation](#implementation) (34)
 - [math](#math) (62)
 - [number theory](#number-theory) (8)
 - [probabilities](#probabilities) (1)
@@ -361,6 +361,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 357A | [Group of Students](https://codeforces.com/contest/357/problem/A) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/357/A%20-%20Group%20of%20Students/solution.txt) |
+| 408B | [Garland](https://codeforces.com/contest/408/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/408/B%20-%20Garland/solution.txt) |
 | 491A | [Up the hill](https://codeforces.com/contest/491/problem/A) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/491/A%20-%20Up%20the%20hill/solution.txt) |
 | 492B | [Vanya and Lanterns](https://codeforces.com/contest/492/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/492/B%20-%20Vanya%20and%20Lanterns/solution.txt) |
 | 534A | [Exam](https://codeforces.com/contest/534/problem/A) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/534/A%20-%20Exam/solution.txt) |
