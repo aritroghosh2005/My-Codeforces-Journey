@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 147 | 26 |
+| 148 | 26 |
 
 ---
 
@@ -30,7 +30,7 @@
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (79)
 - [implementation](#implementation) (35)
-- [math](#math) (63)
+- [math](#math) (64)
 - [number theory](#number-theory) (8)
 - [probabilities](#probabilities) (1)
 - [schedules](#schedules) (2)
@@ -427,6 +427,7 @@
 | 1735B | [Tea with Tangerines](https://codeforces.com/contest/1735/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1735/B%20-%20Tea%20with%20Tangerines/solution.txt) |
 | 1777A | [Everybody Likes Good Arrays!](https://codeforces.com/contest/1777/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1777/A%20-%20Everybody%20Likes%20Good%20Arrays!/solution.txt) |
 | 1870A | [MEXanized Array](https://codeforces.com/contest/1870/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1870/A%20-%20MEXanized%20Array/solution.txt) |
+| 1878C | [Vasilije in Cacak](https://codeforces.com/contest/1878/problem/C) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1878/C%20-%20Vasilije%20in%20Cacak/solution.txt) |
 | 1886B | [Fear of the Dark](https://codeforces.com/contest/1886/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1886/B%20-%20Fear%20of%20the%20Dark/solution.txt) |
 | 1934B | [Yet Another Coin Problem](https://codeforces.com/contest/1934/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1934/B%20-%20Yet%20Another%20Coin%20Problem/solution.txt) |
 | 1951A | [Dual Trigger](https://codeforces.com/contest/1951/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1951/A%20-%20Dual%20Trigger/solution.txt) |
