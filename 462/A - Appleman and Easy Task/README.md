@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/462/problem/A" target="_blank" rel="noopener noreferrer">462A — Appleman and Easy Task</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1000 |
+| **Language** | PyPy 3-64 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 462A](https://codeforces.com/contest/462/problem/A) |
+
+## Topics
+`brute force` `implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Appleman and Easy Task</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>Toastman came up with a very easy task. He gives it to Appleman, but Appleman doesn't know how to solve it. Can you help him?</p><p>Given a <span class="tex-span"><i>n</i> × <i>n</i></span> checkerboard. Each cell of the board has either character '<span class="tex-font-style-tt">x</span>', or character '<span class="tex-font-style-tt">o</span>'. Is it true that each cell of the board has even number of adjacent cells with '<span class="tex-font-style-tt">o</span>'? Two cells of the board are adjacent if they share a side.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">1 ≤ <i>n</i> ≤ 100</span>). Then <span class="tex-span"><i>n</i></span> lines follow containing the description of the checkerboard. Each of them contains <span class="tex-span"><i>n</i></span> characters (either '<span class="tex-font-style-tt">x</span>' or '<span class="tex-font-style-tt">o</span>') without spaces.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print "<span class="tex-font-style-tt">YES</span>" or "<span class="tex-font-style-tt">NO</span>" (without the quotes) depending on the answer to the problem.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0010595112476065205" id="id00845288696140901" class="input-output-copier">Copy</div></div><pre id="id0010595112476065205">3<br>xxo<br>xox<br>oxx<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00285853200144084" id="id007170921095034746" class="input-output-copier">Copy</div></div><pre id="id00285853200144084">YES<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009274455767127736" id="id005628233120717896" class="input-output-copier">Copy</div></div><pre id="id009274455767127736">4<br>xxxo<br>xoxo<br>oxox<br>xxxx<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id000021589319099105664" id="id0032936653187209686" class="input-output-copier">Copy</div></div><pre id="id000021589319099105664">NO<br></pre></div></div></div>
