@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 146 | 26 |
+| 147 | 26 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [bitmasks](#bitmasks) (6)
 - [brute force](#brute-force) (29)
 - [combinatorics](#combinatorics) (6)
-- [constructive algorithms](#constructive-algorithms) (39)
+- [constructive algorithms](#constructive-algorithms) (40)
 - [data structures](#data-structures) (6)
 - [dfs and similar](#dfs-and-similar) (6)
 - [divide and conquer](#divide-and-conquer) (2)
@@ -28,7 +28,7 @@
 - [games](#games) (7)
 - [geometry](#geometry) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (78)
+- [greedy](#greedy) (79)
 - [implementation](#implementation) (35)
 - [math](#math) (63)
 - [number theory](#number-theory) (8)
@@ -37,7 +37,7 @@
 - [sortings](#sortings) (18)
 - [strings](#strings) (6)
 - [ternary search](#ternary-search) (1)
-- [two pointers](#two-pointers) (10)
+- [two pointers](#two-pointers) (11)
 
 ---
 
@@ -158,6 +158,7 @@
 | 1684B | [Z mod X = C](https://codeforces.com/contest/1684/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1684/B%20-%20Z%20mod%20X%20%3D%20C/solution.txt) |
 | 1702A | [Round Down the Price](https://codeforces.com/contest/1702/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1702/A%20-%20Round%20Down%20the%20Price/solution.txt) |
 | 1728B | [Best Permutation](https://codeforces.com/contest/1728/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1728/B%20-%20Best%20Permutation/solution.txt) |
+| 1746B | [Rebellion](https://codeforces.com/contest/1746/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1746/B%20-%20Rebellion/solution.txt) |
 | 1761B | [Elimination of a Ring](https://codeforces.com/contest/1761/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1761/B%20-%20Elimination%20of%20a%20Ring/solution.txt) |
 | 1870A | [MEXanized Array](https://codeforces.com/contest/1870/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1870/A%20-%20MEXanized%20Array/solution.txt) |
 | 1951A | [Dual Trigger](https://codeforces.com/contest/1951/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1951/A%20-%20Dual%20Trigger/solution.txt) |
@@ -297,6 +298,7 @@
 | 1728B | [Best Permutation](https://codeforces.com/contest/1728/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1728/B%20-%20Best%20Permutation/solution.txt) |
 | 1732B | [Ugu](https://codeforces.com/contest/1732/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1732/B%20-%20Ugu/solution.txt) |
 | 1735B | [Tea with Tangerines](https://codeforces.com/contest/1735/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1735/B%20-%20Tea%20with%20Tangerines/solution.txt) |
+| 1746B | [Rebellion](https://codeforces.com/contest/1746/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1746/B%20-%20Rebellion/solution.txt) |
 | 1761B | [Elimination of a Ring](https://codeforces.com/contest/1761/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1761/B%20-%20Elimination%20of%20a%20Ring/solution.txt) |
 | 1777A | [Everybody Likes Good Arrays!](https://codeforces.com/contest/1777/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1777/A%20-%20Everybody%20Likes%20Good%20Arrays!/solution.txt) |
 | 1870A | [MEXanized Array](https://codeforces.com/contest/1870/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1870/A%20-%20MEXanized%20Array/solution.txt) |
@@ -535,6 +537,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1746B | [Rebellion](https://codeforces.com/contest/1746/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1746/B%20-%20Rebellion/solution.txt) |
 | 2064B | [Variety is Discouraged](https://codeforces.com/contest/2064/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2064/B%20-%20Variety%20is%20Discouraged/solution.txt) |
 | 2143A | [All Lengths Subtraction](https://codeforces.com/contest/2143/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2143/A%20-%20All%20Lengths%20Subtraction/solution.txt) |
 | 2161C | [Loyalty](https://codeforces.com/contest/2161/problem/C) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2161/C%20-%20Loyalty/solution.txt) |
