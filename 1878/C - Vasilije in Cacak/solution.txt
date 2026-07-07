@@ -1,0 +1,13 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    n, k, x = map(int, input().split())
+    
+    minSum = k*(k+1) // 2
+    maxSum = k*(2*n-k+1) // 2
+ 
+    print("YES" if minSum <= x <= maxSum else "NO")  
+ 
+t = int(input())
+for _ in range(t): solve()
