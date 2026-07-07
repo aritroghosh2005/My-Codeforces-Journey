@@ -1,0 +1,14 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    n = int(input())
+    a = list(map(int, input().split()))
+    
+    aSorted = sorted(a)
+    inequalities = sum(aSorted[i] != a[i] for i in range(n))
+    op = inequalities // 2
+    print(op)
+ 
+t = int(input())
+for _ in range(t): solve()
