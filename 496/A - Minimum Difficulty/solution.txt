@@ -1,0 +1,20 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    n = int(input())
+    a = list(map(int, input().split()))
+    
+    removal = [0]*n
+    for i in range(1, n-1):
+        removal[i] = (a[i] - a[i-1]) + (a[i+1] - a[i])
+    
+    m = min(removal[1:n-1])
+    i = removal.index(m)
+ 
+    a.pop(i)
+    minDifficulty = max([a[i+1] - a[i] for i in range(n-2)])
+    print(minDifficulty)
+ 
+t = 1
+for _ in range(t): solve()
