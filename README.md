@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 154 | 26 |
+| 155 | 26 |
 
 ---
 
@@ -28,8 +28,8 @@
 - [games](#games) (7)
 - [geometry](#geometry) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (82)
-- [implementation](#implementation) (39)
+- [greedy](#greedy) (83)
+- [implementation](#implementation) (40)
 - [math](#math) (68)
 - [number theory](#number-theory) (9)
 - [probabilities](#probabilities) (1)
@@ -318,6 +318,7 @@
 | 2063B | [Subsequence Update](https://codeforces.com/contest/2063/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2063/B%20-%20Subsequence%20Update/solution.txt) |
 | 2064B | [Variety is Discouraged](https://codeforces.com/contest/2064/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2064/B%20-%20Variety%20is%20Discouraged/solution.txt) |
 | 2074C | [XOR and Triangle](https://codeforces.com/contest/2074/problem/C) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2074/C%20-%20XOR%20and%20Triangle/solution.txt) |
+| 2121C | [Those Who Are With Us](https://codeforces.com/contest/2121/problem/C) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2121/C%20-%20Those%20Who%20Are%20With%20Us/solution.txt) |
 | 2126D | [This Is the Last Time](https://codeforces.com/contest/2126/problem/D) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2126/D%20-%20This%20Is%20the%20Last%20Time/solution.txt) |
 | 2158A | [Suspension](https://codeforces.com/contest/2158/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2158/A%20-%20Suspension/solution.txt) |
 | 2160B | [Distinct Elements](https://codeforces.com/contest/2160/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2160/B%20-%20Distinct%20Elements/solution.txt) |
@@ -390,6 +391,7 @@
 | 1732B | [Ugu](https://codeforces.com/contest/1732/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1732/B%20-%20Ugu/solution.txt) |
 | 1761B | [Elimination of a Ring](https://codeforces.com/contest/1761/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1761/B%20-%20Elimination%20of%20a%20Ring/solution.txt) |
 | 1982A | [Soccer](https://codeforces.com/contest/1982/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1982/A%20-%20Soccer/solution.txt) |
+| 2121C | [Those Who Are With Us](https://codeforces.com/contest/2121/problem/C) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2121/C%20-%20Those%20Who%20Are%20With%20Us/solution.txt) |
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.txt) |
 | 2169B | [Drifting Away](https://codeforces.com/contest/2169/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2169/B%20-%20Drifting%20Away/solution.txt) |
 | 2172A | [ASCII Art Contest](https://codeforces.com/contest/2172/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2172/A%20-%20ASCII%20Art%20Contest/solution.cpp) |
