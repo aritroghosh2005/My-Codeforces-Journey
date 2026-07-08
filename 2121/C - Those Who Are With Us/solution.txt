@@ -1,0 +1,48 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    n, m = map(int, input().split())
+ 
+    matrix = []
+    for u in range(n):
+        row = list(map(int, input().split()))
+        matrix.append(row)
+ 
+    val = max(max(row) for row in matrix)
+    
+    occurences = []
+    for i in range(n):
+        for j in range(m):
+            if matrix[i][j] == val: occurences.append((i,j))
+ 
+    uniqueRows = list({r for r,c in occurences})
+    uniqueColumns = list({c for r,c in occurences})
+ 
+    if len(uniqueRows) <= len(uniqueColumns):
+        for r in uniqueRows:
+            columnSeen = -1
+            columnCount = 0
+            validRow = True
+            for x,y in occurences:
+                if x == r: continue
+                elif columnCount == 0: columnCount += 1; columnSeen = y
+                elif columnSeen == y: continue
+                else: validRow = False; break
+            if validRow: print(val-1); return
+        print(val)
+    else:
+        for c in uniqueColumns:
+            rowSeen = -1
+            rowCount = 0
+            validColumn = True
+            for x,y in occurences:
+                if y==c: continue
+                elif rowCount == 0: rowCount += 1; rowSeen = x
+                elif rowSeen == x: continue
+                else: validColumn = False; break
+            if validColumn: print(val-1); return
+        print(val)
+ 
+t = int(input())
+for _ in range(t): solve()
