@@ -1,0 +1,15 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    m, n = map(int, input().split())
+ 
+    a, b = m, n
+    while a!=0 and b!=0:
+        if a >= 2*b: a %= (2*b)
+        elif b >= 2*a: b %= (2*a)
+        else: break
+    print(a,b)
+ 
+t = 1
+for _ in range(t): solve()
