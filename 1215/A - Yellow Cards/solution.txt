@@ -1,0 +1,28 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    a1 = int(input())
+    a2 = int(input())
+    k1 = int(input())
+    k2 = int(input())
+    n = int(input())
+ 
+    # Finding minimum suspensions
+    safeCapacity = a1*(k1-1) + a2*(k2-1)
+    diff = n - safeCapacity
+    minSuspensions = max(0, diff)
+    
+    # Finding maximum suspensions
+    if k2 < k1:
+        a1, a2 = a2, a1
+        k1, k2 = k2, k1
+    suspensionsA = min(a1, n//k1)
+    n -= suspensionsA*k1
+    suspensionsB = min(a2, n//k2)
+    maxSuspensions = suspensionsA + suspensionsB
+ 
+    print(minSuspensions, maxSuspensions)
+ 
+t = 1
+for _ in range(t): solve()
