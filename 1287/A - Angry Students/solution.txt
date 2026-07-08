@@ -1,0 +1,23 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    k = int(input())
+    s = input()
+ 
+    i = 0
+    maxLength = 0
+ 
+    while i < k:
+        if s[i] == 'A':
+            j = i+1
+            while j < k and s[j] == 'P': j += 1
+            length = j - i -1
+            maxLength = max(maxLength, length)
+            i = j 
+        else:
+            i += 1
+    print(maxLength)
+ 
+t = int(input())
+for _ in range(t): solve()
