@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 153 | 26 |
+| 154 | 26 |
 
 ---
 
@@ -30,8 +30,8 @@
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (82)
 - [implementation](#implementation) (39)
-- [math](#math) (67)
-- [number theory](#number-theory) (8)
+- [math](#math) (68)
+- [number theory](#number-theory) (9)
 - [probabilities](#probabilities) (1)
 - [schedules](#schedules) (2)
 - [sortings](#sortings) (18)
@@ -421,6 +421,7 @@
 | 630C | [Lucky Numbers](https://codeforces.com/contest/630/problem/C) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/630/C%20-%20Lucky%20Numbers/solution.txt) |
 | 651A | [Joysticks](https://codeforces.com/contest/651/problem/A) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/651/A%20-%20Joysticks/solution.txt) |
 | 779A | [Pupils Redistribution](https://codeforces.com/contest/779/problem/A) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/779/A%20-%20Pupils%20Redistribution/solution.txt) |
+| 946B | [Weird Subtraction Process](https://codeforces.com/contest/946/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/946/B%20-%20Weird%20Subtraction%20Process/solution.txt) |
 | 950A | [Left-handers, Right-handers and Ambidexters](https://codeforces.com/contest/950/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/950/A%20-%20Left-handers%2C%20Right-handers%20and%20Ambidexters/solution.txt) |
 | 1041B | [Buying a TV Set](https://codeforces.com/contest/1041/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1041/B%20-%20Buying%20a%20TV%20Set/solution.txt) |
 | 1215A | [Yellow Cards](https://codeforces.com/contest/1215/problem/A) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1215/A%20-%20Yellow%20Cards/solution.txt) |
@@ -485,6 +486,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 946B | [Weird Subtraction Process](https://codeforces.com/contest/946/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/946/B%20-%20Weird%20Subtraction%20Process/solution.txt) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1679/A%20-%20AvtoBus/solution.txt) |
 | 2164B | [Even Modulo Pair](https://codeforces.com/contest/2164/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2164/B%20-%20Even%20Modulo%20Pair/solution.txt) |
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.txt) |
