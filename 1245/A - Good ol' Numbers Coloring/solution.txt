@@ -1,0 +1,15 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+from math import gcd
+ 
+def solve():
+    a, b = map(int, input().split())
+    if a==1 or b==1: print("Finite")
+    else:
+        g = gcd(a,b)
+        print("Infinite" if g!=1 else "Finite")
+    
+ 
+t = int(input())
+for _ in range(t): solve()
