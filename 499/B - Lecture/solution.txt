@@ -6,17 +6,12 @@ def solve():
     translator = {}
  
     for __ in range(m):
-        a,b = map(str, input().split())
-        if len(a) > len(b): translation = b
-        else: translation = a
-        translator[a] = translation
+        a,b = input().split()
+        translator[a] = a if len(a) <= len(b) else b
     
     lecture = input().split()
-    for i in range(n):
-        word = lecture[i]
-        lecture[i] = translator[word]
-    
-    print(' '.join(lecture))
+    translation = [translator[word] for word in lecture]
+    print(*translation)
  
 t = 1
 for _ in range(t): solve()
