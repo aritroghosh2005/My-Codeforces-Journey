@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 157 | 26 |
+| 158 | 26 |
 
 ---
 
@@ -29,13 +29,13 @@
 - [geometry](#geometry) (3)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (83)
-- [implementation](#implementation) (40)
+- [implementation](#implementation) (41)
 - [math](#math) (69)
 - [number theory](#number-theory) (10)
 - [probabilities](#probabilities) (1)
 - [schedules](#schedules) (2)
 - [sortings](#sortings) (19)
-- [strings](#strings) (7)
+- [strings](#strings) (8)
 - [ternary search](#ternary-search) (1)
 - [two pointers](#two-pointers) (11)
 
@@ -377,6 +377,7 @@
 | 491A | [Up the hill](https://codeforces.com/contest/491/problem/A) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/491/A%20-%20Up%20the%20hill/solution.txt) |
 | 492B | [Vanya and Lanterns](https://codeforces.com/contest/492/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/492/B%20-%20Vanya%20and%20Lanterns/solution.txt) |
 | 496A | [Minimum Difficulty](https://codeforces.com/contest/496/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/496/A%20-%20Minimum%20Difficulty/solution.txt) |
+| 499B | [Lecture](https://codeforces.com/contest/499/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/499/B%20-%20Lecture/solution.txt) |
 | 534A | [Exam](https://codeforces.com/contest/534/problem/A) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/534/A%20-%20Exam/solution.txt) |
 | 637A | [Voting for Photos](https://codeforces.com/contest/637/problem/A) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/637/A%20-%20Voting%20for%20Photos/solution.txt) |
 | 651A | [Joysticks](https://codeforces.com/contest/651/problem/A) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/651/A%20-%20Joysticks/solution.txt) |
@@ -542,6 +543,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 499B | [Lecture](https://codeforces.com/contest/499/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/499/B%20-%20Lecture/solution.txt) |
 | 554A | [Kyoya and Photobooks](https://codeforces.com/contest/554/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/554/A%20-%20Kyoya%20and%20Photobooks/solution.txt) |
 | 755B | [PolandBall and Game](https://codeforces.com/contest/755/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/755/B%20-%20PolandBall%20and%20Game/solution.txt) |
 | 1575A | [Another Sorting Problem](https://codeforces.com/contest/1575/problem/A) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1575/A%20-%20Another%20Sorting%20Problem/solution.txt) |
