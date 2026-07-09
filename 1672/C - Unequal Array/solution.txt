@@ -1,0 +1,20 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    n = int(input())
+    a = list(map(int, input().split()))
+ 
+    start = end = -1
+    for i in range(n-1):
+        if a[i] == a[i+1]:
+            if start == -1: start = i
+            end = i
+    
+    if start == -1 or start == end: op = 0
+    elif start == end - 1: op = 1
+    else: op = end - start - 1
+    print(op)
+ 
+t = int(input())
+for _ in range(t): solve()
