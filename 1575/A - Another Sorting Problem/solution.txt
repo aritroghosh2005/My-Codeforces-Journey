@@ -3,7 +3,7 @@ input = lambda : sys.stdin.readline().rstrip()
  
 def solve():
     n, m = map(int, input().split())
-    orderings = []
+    orderings = {}
  
     for i in range(n):
         s = input()
@@ -13,11 +13,10 @@ def solve():
             if (j+1)%2 == 0: val = -ord(s[j])
             else: val = ord(s[j])
             values.append(val)
-        orderings.append((values, i+1))
+        orderings[i+1] =  values
     
-    orderings.sort()
-    indices = [i for val, i in orderings]
-    print(*indices)
+    sortedOrderings = dict(sorted(orderings.items(), key = lambda item: item[1]))
+    print(*sortedOrderings.keys())
  
 t = 1
 for _ in range(t): solve()
