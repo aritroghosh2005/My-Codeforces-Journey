@@ -1,0 +1,22 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    n, m = map(int, input().split())
+    translator = {}
+ 
+    for __ in range(m):
+        a,b = map(str, input().split())
+        if len(a) > len(b): translation = b
+        else: translation = a
+        translator[a] = translation
+    
+    lecture = input().split()
+    for i in range(n):
+        word = lecture[i]
+        lecture[i] = translator[word]
+    
+    print(' '.join(lecture))
+ 
+t = 1
+for _ in range(t): solve()
