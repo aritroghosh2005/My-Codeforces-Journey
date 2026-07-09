@@ -1,0 +1,22 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    n, m = map(int, input().split())
+    orderings = {}
+ 
+    for i in range(n):
+        s = input()
+        values = []
+ 
+        for j in range(m):
+            if (j+1)%2 == 0: val = -ord(s[j])
+            else: val = ord(s[j])
+            values.append(val)
+        orderings[i+1] = values
+    
+    sortedOrderings = dict(sorted(orderings.items(), key = lambda item: item[1]))
+    print(*sortedOrderings.keys())
+ 
+t = 1
+for _ in range(t): solve()
