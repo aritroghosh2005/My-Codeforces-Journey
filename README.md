@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 156 | 26 |
+| 157 | 26 |
 
 ---
 
@@ -19,7 +19,7 @@
 - [brute force](#brute-force) (31)
 - [combinatorics](#combinatorics) (6)
 - [constructive algorithms](#constructive-algorithms) (41)
-- [data structures](#data-structures) (6)
+- [data structures](#data-structures) (7)
 - [dfs and similar](#dfs-and-similar) (6)
 - [divide and conquer](#divide-and-conquer) (2)
 - [dp](#dp) (18)
@@ -34,8 +34,8 @@
 - [number theory](#number-theory) (10)
 - [probabilities](#probabilities) (1)
 - [schedules](#schedules) (2)
-- [sortings](#sortings) (18)
-- [strings](#strings) (6)
+- [sortings](#sortings) (19)
+- [strings](#strings) (7)
 - [ternary search](#ternary-search) (1)
 - [two pointers](#two-pointers) (11)
 
@@ -193,6 +193,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 755B | [PolandBall and Game](https://codeforces.com/contest/755/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/755/B%20-%20PolandBall%20and%20Game/solution.txt) |
+| 1575A | [Another Sorting Problem](https://codeforces.com/contest/1575/problem/A) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1575/A%20-%20Another%20Sorting%20Problem/solution.txt) |
 | 1986C | [Update Queries](https://codeforces.com/contest/1986/problem/C) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1986/C%20-%20Update%20Queries/solution.txt) |
 | 2063B | [Subsequence Update](https://codeforces.com/contest/2063/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2063/B%20-%20Subsequence%20Update/solution.txt) |
 | 2126D | [This Is the Last Time](https://codeforces.com/contest/2126/problem/D) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2126/D%20-%20This%20Is%20the%20Last%20Time/solution.txt) |
@@ -521,6 +522,7 @@
 | 572A | [Arrays](https://codeforces.com/contest/572/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/572/A%20-%20Arrays/solution.txt) |
 | 755B | [PolandBall and Game](https://codeforces.com/contest/755/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/755/B%20-%20PolandBall%20and%20Game/solution.txt) |
 | 814A | [An abandoned sentiment from past](https://codeforces.com/contest/814/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/814/A%20-%20An%20abandoned%20sentiment%20from%20past/solution.txt) |
+| 1575A | [Another Sorting Problem](https://codeforces.com/contest/1575/problem/A) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1575/A%20-%20Another%20Sorting%20Problem/solution.txt) |
 | 1605B | [Reverse Sort](https://codeforces.com/contest/1605/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1605/B%20-%20Reverse%20Sort/solution.txt) |
 | 1982A | [Soccer](https://codeforces.com/contest/1982/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1982/A%20-%20Soccer/solution.txt) |
 | 1986C | [Update Queries](https://codeforces.com/contest/1986/problem/C) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1986/C%20-%20Update%20Queries/solution.txt) |
@@ -542,6 +544,7 @@
 |---|---------|------------|----------|
 | 554A | [Kyoya and Photobooks](https://codeforces.com/contest/554/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/554/A%20-%20Kyoya%20and%20Photobooks/solution.txt) |
 | 755B | [PolandBall and Game](https://codeforces.com/contest/755/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/755/B%20-%20PolandBall%20and%20Game/solution.txt) |
+| 1575A | [Another Sorting Problem](https://codeforces.com/contest/1575/problem/A) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1575/A%20-%20Another%20Sorting%20Problem/solution.txt) |
 | 1606A | [AB Balance](https://codeforces.com/contest/1606/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1606/A%20-%20AB%20Balance/solution.txt) |
 | 1941C | [Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1941/C%20-%20Rudolf%20and%20the%20Ugly%20String/solution.txt) |
 | 2072B | [Having Been a Treasurer in the Past, I Help Goblins Deceive](https://codeforces.com/contest/2072/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2072/B%20-%20Having%20Been%20a%20Treasurer%20in%20the%20Past%2C%20I%20Help%20Goblins%20Deceive/solution.txt) |
