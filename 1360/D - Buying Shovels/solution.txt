@@ -5,17 +5,13 @@ from math import isqrt
  
 def solve():
     n, k = map(int, input().split())
+    needed = n
  
-    factors = []
     for i in range(1, isqrt(n)+1):
-        if n%i==0: 
-            factors.append(i)
-            if i*i != n: factors.append(n//i)
-    factors.sort(reverse=True)
-    
-    for f in factors:
-        if f <= k:
-            print(n//f); break
+        if n%i == 0:
+            if i <= k: needed = min(n//i, needed)
+            if n//i <= k: needed = min(i, needed)
+    print(needed)
  
 t = int(input())
 for _ in range(t): solve()
