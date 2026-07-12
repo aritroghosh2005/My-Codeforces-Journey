@@ -4,37 +4,14 @@ input = lambda : sys.stdin.readline().rstrip()
 def solve():
     n = input()
  
-    # Create all possible 3-digit endings for divisibility by 8
-    endings1D = [str(i) for i in range(0, 10, 8)]
-    endings2D = [tuple(str(i)) for i in range(16, 100, 8)]
-    endings3D = [tuple(str(i)) for i in range(104, 1000, 8)]
+    for i in range(0, 1000, 8):
+        target = str(i)
+        nIter = iter(n)
  
-    # Check if any ending is present in given string in correct order
-    for ending in endings1D:
-        if ending in n: 
+        if all(dig in nIter for dig in target):
             print("YES")
-            print(ending)
+            print(target)
             return
-    
-    for d1, d2 in endings2D:
-        i1 = n.find(d1)
-        if i1 != -1:
-            i2 = n.find(d2, i1+1)
-            if i2 != -1:
-                print("YES")
-                print(d1+d2)
-                return
-    
-    for d1, d2, d3 in endings3D:
-        i1 = n.find(d1)
-        if i1 != -1:
-            i2 = n.find(d2, i1+1)
-            if i2 != -1:
-                i3 = n.find(d3, i2+1)
-                if i3 != -1:
-                    print("YES")
-                    print(d1+d2+d3)
-                    return
     print("NO")
  
 t = 1
