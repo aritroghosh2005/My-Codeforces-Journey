@@ -1,0 +1,24 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    s = input()
+ 
+    start, end = s.find('['), s.rfind(']')
+    startCol = s.find(':', start+1, end)
+    endCol = s.rfind(':', start+1, end)
+ 
+    colons = s.count('|', startCol+1, endCol)
+    
+    # Check 1: All must exist
+    for val in (start, end, startCol, endCol):
+        if val == -1: print(-1); return
+    
+    # Check 2: All must be unique and not inverted
+    if start >= end or startCol >= endCol: print(-1); return
+ 
+    accordion = 4 + colons
+    print(accordion)
+ 
+t = 1
+for _ in range(t): solve()
