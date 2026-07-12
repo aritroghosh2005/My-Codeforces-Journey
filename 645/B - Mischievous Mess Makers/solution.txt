@@ -1,0 +1,22 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    n, k = map(int, input().split())
+    swaps = min(n//2, k)
+ 
+    swapFactor = [0]*n
+    for i in range(swaps):
+        swapFactor[i] = n - i - 1
+        swapFactor[n-i-1] = i
+    
+    for i in range(swaps, n-swaps): swapFactor[i] = swaps
+    
+    messiness = sum(swapFactor)
+    print(messiness)
+ 
+    
+ 
+ 
+t = 1
+for _ in range(t): solve()
