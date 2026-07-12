@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 163 | 26 |
+| 164 | 26 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [bitmasks](#bitmasks) (6)
 - [brute force](#brute-force) (32)
 - [combinatorics](#combinatorics) (6)
-- [constructive algorithms](#constructive-algorithms) (42)
+- [constructive algorithms](#constructive-algorithms) (43)
 - [data structures](#data-structures) (7)
 - [dfs and similar](#dfs-and-similar) (6)
 - [divide and conquer](#divide-and-conquer) (2)
@@ -30,8 +30,8 @@
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (87)
 - [implementation](#implementation) (44)
-- [math](#math) (71)
-- [number theory](#number-theory) (11)
+- [math](#math) (72)
+- [number theory](#number-theory) (12)
 - [probabilities](#probabilities) (1)
 - [schedules](#schedules) (2)
 - [sortings](#sortings) (20)
@@ -164,6 +164,7 @@
 | 1728B | [Best Permutation](https://codeforces.com/contest/1728/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1728/B%20-%20Best%20Permutation/solution.txt) |
 | 1746B | [Rebellion](https://codeforces.com/contest/1746/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1746/B%20-%20Rebellion/solution.txt) |
 | 1761B | [Elimination of a Ring](https://codeforces.com/contest/1761/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1761/B%20-%20Elimination%20of%20a%20Ring/solution.txt) |
+| 1838C | [No Prime Differences](https://codeforces.com/contest/1838/problem/C) | 1400 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1838/C%20-%20No%20Prime%20Differences/solution.txt) |
 | 1870A | [MEXanized Array](https://codeforces.com/contest/1870/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1870/A%20-%20MEXanized%20Array/solution.txt) |
 | 1951A | [Dual Trigger](https://codeforces.com/contest/1951/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1951/A%20-%20Dual%20Trigger/solution.txt) |
 | 1954A | [Painting the Ribbon](https://codeforces.com/contest/1954/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1954/A%20-%20Painting%20the%20Ribbon/solution.txt) |
@@ -455,6 +456,7 @@
 | 1684B | [Z mod X = C](https://codeforces.com/contest/1684/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1684/B%20-%20Z%20mod%20X%20%3D%20C/solution.txt) |
 | 1735B | [Tea with Tangerines](https://codeforces.com/contest/1735/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1735/B%20-%20Tea%20with%20Tangerines/solution.txt) |
 | 1777A | [Everybody Likes Good Arrays!](https://codeforces.com/contest/1777/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1777/A%20-%20Everybody%20Likes%20Good%20Arrays!/solution.txt) |
+| 1838C | [No Prime Differences](https://codeforces.com/contest/1838/problem/C) | 1400 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1838/C%20-%20No%20Prime%20Differences/solution.txt) |
 | 1870A | [MEXanized Array](https://codeforces.com/contest/1870/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1870/A%20-%20MEXanized%20Array/solution.txt) |
 | 1878C | [Vasilije in Cacak](https://codeforces.com/contest/1878/problem/C) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1878/C%20-%20Vasilije%20in%20Cacak/solution.txt) |
 | 1886B | [Fear of the Dark](https://codeforces.com/contest/1886/problem/B) | 1200 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1886/B%20-%20Fear%20of%20the%20Dark/solution.txt) |
@@ -506,6 +508,7 @@
 | 1245A | [Good ol' Numbers Coloring](https://codeforces.com/contest/1245/problem/A) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1245/A%20-%20Good%20ol'%20Numbers%20Coloring/solution.txt) |
 | 1360D | [Buying Shovels](https://codeforces.com/contest/1360/problem/D) | 1300 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1360/D%20-%20Buying%20Shovels/solution.txt) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1679/A%20-%20AvtoBus/solution.txt) |
+| 1838C | [No Prime Differences](https://codeforces.com/contest/1838/problem/C) | 1400 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/1838/C%20-%20No%20Prime%20Differences/solution.txt) |
 | 2164B | [Even Modulo Pair](https://codeforces.com/contest/2164/problem/B) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2164/B%20-%20Even%20Modulo%20Pair/solution.txt) |
 | 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.txt) |
 | 2204C | [Spring](https://codeforces.com/contest/2204/problem/C) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2204/C%20-%20Spring/solution.txt) |
