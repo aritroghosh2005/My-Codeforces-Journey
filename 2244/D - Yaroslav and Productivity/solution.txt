@@ -1,0 +1,26 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    n, m = map(int, input().split())
+    a = list(map(int, input().split()))
+    b = list(map(int, input().split()))
+    
+    b = set(b)
+    productivity = 0
+    groupSum = 0
+ 
+    for i in range(n):
+        if i in b:
+            productivity += abs(groupSum)
+            groupSum = a[i]
+        else:
+            groupSum += a[i]
+    
+    if n in b: groupSum = abs(groupSum)
+    productivity += groupSum
+    
+    print(productivity)
+ 
+t = int(input())
+for _ in range(t): solve()
