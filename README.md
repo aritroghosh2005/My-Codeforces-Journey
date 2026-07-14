@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 168 | 26 |
+| 169 | 26 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (2)
-- [Uncategorized](#uncategorized) (10)
+- [Uncategorized](#uncategorized) (11)
 - [binary search](#binary-search) (18)
 - [bitmasks](#bitmasks) (6)
 - [brute force](#brute-force) (33)
@@ -61,6 +61,7 @@
 | 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.txt) |
 | 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.txt) |
 | 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.txt) |
+| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.txt) |
 | 1010211 | [Guess the Number](https://codeforces.com/contest/101021/problem/1) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/101021/1%20-%20Guess%20the%20Number/solution.txt) |
 
 ### binary search
