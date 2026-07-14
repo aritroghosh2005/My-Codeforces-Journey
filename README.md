@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 170 | 26 |
+| 171 | 26 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (2)
-- [Uncategorized](#uncategorized) (12)
+- [Uncategorized](#uncategorized) (13)
 - [binary search](#binary-search) (18)
 - [bitmasks](#bitmasks) (6)
 - [brute force](#brute-force) (33)
@@ -63,6 +63,7 @@
 | 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.txt) |
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.txt) |
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.txt) |
+| 2244E | [Masha and the Garland](https://codeforces.com/contest/2244/problem/E) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2244/E%20-%20Masha%20and%20the%20Garland/solution.txt) |
 | 1010211 | [Guess the Number](https://codeforces.com/contest/101021/problem/1) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/101021/1%20-%20Guess%20the%20Number/solution.txt) |
 
 ### binary search
