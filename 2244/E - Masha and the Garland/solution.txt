@@ -1,0 +1,24 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+ 
+def solve():
+    n, q = map(int, input().split())
+    s = input()
+    
+    violations = [0]*n # violations[i] means violations upto s[i] 0-indexed
+    for i in range(1, n):
+        violates = 1 if s[i] == s[i-1] else 0
+        violations[i] = violations[i-1] + violates
+    
+    for _ in range(q):
+        l, r, k = map(int, input().split())
+        l -= 1
+        r -= 1
+ 
+        v = violations[r] - violations[l]
+        ops = -(-v//2)
+        if ops <= k: print("YES")
+        else: print("NO")
+ 
+t = int(input())
+for _ in range(t): solve()
