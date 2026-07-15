@@ -18,20 +18,20 @@
 - [bitmasks](#bitmasks) (6)
 - [brute force](#brute-force) (33)
 - [combinatorics](#combinatorics) (6)
-- [constructive algorithms](#constructive-algorithms) (43)
+- [constructive algorithms](#constructive-algorithms) (44)
 - [data structures](#data-structures) (7)
 - [dfs and similar](#dfs-and-similar) (6)
 - [divide and conquer](#divide-and-conquer) (2)
-- [dp](#dp) (19)
+- [dp](#dp) (20)
 - [dsu](#dsu) (1)
 - [fft](#fft) (1)
 - [games](#games) (7)
 - [geometry](#geometry) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (88)
+- [greedy](#greedy) (89)
 - [implementation](#implementation) (44)
-- [math](#math) (74)
-- [number theory](#number-theory) (13)
+- [math](#math) (75)
+- [number theory](#number-theory) (14)
 - [probabilities](#probabilities) (1)
 - [schedules](#schedules) (2)
 - [sortings](#sortings) (20)
@@ -196,6 +196,7 @@
 | 2233B | [Different Distances](https://codeforces.com/contest/2233/problem/B) | 900 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2233/B%20-%20Different%20Distances/solution.txt) |
 | 2234B | [Palindrome, Twelve and Two Terms](https://codeforces.com/contest/2234/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2234/B%20-%20Palindrome%2C%20Twelve%20and%20Two%20Terms/solution.txt) |
 | 2237D | [Fullmetal Bitchemist](https://codeforces.com/contest/2237/problem/D) | 1500 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2237/D%20-%20Fullmetal%20Bitchemist/solution.txt) |
+| 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.txt) |
 
 ### data structures
 
@@ -250,6 +251,7 @@
 | 2232C1 | [Seating Arrangement (Easy Version)](https://codeforces.com/contest/2232/problem/C1) | 1300 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2232/C1%20-%20Seating%20Arrangement%20(Easy%20Version)/solution.txt) |
 | 2232D | [Magical Tiered Cake](https://codeforces.com/contest/2232/problem/D) | 2000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2232/D%20-%20Magical%20Tiered%20Cake/solution.txt) |
 | 2233C | [Cost of a Bracket Sequence](https://codeforces.com/contest/2233/problem/C) | 1400 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2233/C%20-%20Cost%20of%20a%20Bracket%20Sequence/solution.txt) |
+| 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.txt) |
 
 ### dsu
 
@@ -381,6 +383,7 @@
 | 2237C | [Duck Surplus](https://codeforces.com/contest/2237/problem/C) | 1000 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2237/C%20-%20Duck%20Surplus/solution.txt) |
 | 2237D | [Fullmetal Bitchemist](https://codeforces.com/contest/2237/problem/D) | 1500 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2237/D%20-%20Fullmetal%20Bitchemist/solution.txt) |
 | 2240A | [Another Popcount Problem](https://codeforces.com/contest/2240/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2240/A%20-%20Another%20Popcount%20Problem/solution.txt) |
+| 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.txt) |
 
 ### implementation
 
@@ -509,6 +512,7 @@
 | 2234B | [Palindrome, Twelve and Two Terms](https://codeforces.com/contest/2234/problem/B) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2234/B%20-%20Palindrome%2C%20Twelve%20and%20Two%20Terms/solution.txt) |
 | 2237D | [Fullmetal Bitchemist](https://codeforces.com/contest/2237/problem/D) | 1500 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2237/D%20-%20Fullmetal%20Bitchemist/solution.txt) |
 | 2240B | [AI Finds Nothing Here](https://codeforces.com/contest/2240/problem/B) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2240/B%20-%20AI%20Finds%20Nothing%20Here/solution.txt) |
+| 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.txt) |
 
 ### number theory
 
@@ -527,6 +531,7 @@
 | 2218D | [The 67th OEIS Problem](https://codeforces.com/contest/2218/problem/D) | 1100 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2218/D%20-%20The%2067th%20OEIS%20Problem/solution.txt) |
 | 2219A | [Grid L](https://codeforces.com/contest/2219/problem/A) | 1400 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2219/A%20-%20Grid%20L/solution.txt) |
 | 2234A | [Euclid, Sequence and Two Numbers](https://codeforces.com/contest/2234/problem/A) | 800 | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2234/A%20-%20Euclid%2C%20Sequence%20and%20Two%20Numbers/solution.txt) |
+| 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | Unrated | [PyPy 3-64](https://github.com/aritroghosh2005/My-Codeforces-Journey/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.txt) |
 
 ### probabilities
 
